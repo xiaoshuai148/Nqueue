@@ -1,0 +1,5 @@
+{
+    "connectionString": "mongodb://xiaoshuai:sqghaqtyjyfd148@194.233.89.62:27017/?proxyHost=127.0.0.1&proxyPort=7890&authMechanism=DEFAULT",
+    "dbName": "Nqueue",
+    "collectionName": "Nqueue"
+}
