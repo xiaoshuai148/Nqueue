@@ -55,7 +55,7 @@ else{
             res.send('Hello World!');
         });
 
-        app.post('/push', function (req, res) {
+        app.post('/queue/push', function (req, res) {
             //获取type参数
             var type = req.query.type;
             //获取body参数
@@ -78,7 +78,7 @@ else{
             });
         });
 
-        app.get('/pop', async function (req, res) {
+        app.get('/queue/pop', async function (req, res) {
             //获取type参数
             var type = req.query.type;
             try{
@@ -97,7 +97,7 @@ else{
             }
         });
 
-        app.get('/count', async function (req, res) {
+        app.get('/queue/count', async function (req, res) {
             //获取type参数
             var type = req.query.type;
             try{
