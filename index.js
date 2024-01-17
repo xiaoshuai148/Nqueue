@@ -89,11 +89,11 @@ else{
                     res.status(200).send(result.content);
                 }
                 else{
-                    res.status(400).send('error');
+                    res.status(400).send('');
                 }
             }
             catch(e){
-                res.status(400).send('error');
+                res.status(400).send('');
             }
         });
 
@@ -107,7 +107,7 @@ else{
                 res.status(200).send(result.toString());
             }
             catch(e){
-                res.status(400).send('error');
+                res.status(400).send('');
             }
         });
 
